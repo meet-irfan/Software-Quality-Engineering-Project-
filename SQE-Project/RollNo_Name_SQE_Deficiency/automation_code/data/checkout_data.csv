@@ -1,0 +1,4 @@
+case_id,first_name,last_name,postal_code,expected_error
+missing_first_name,,User,12345,First Name is required
+missing_last_name,Test,,12345,Last Name is required
+missing_postal_code,Test,User,,Postal Code is required
